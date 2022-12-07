@@ -1,0 +1,601 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Reset CSS */
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2B292D;
+  letter-spacing: -0.01em;
+}
+
+botton,
+input,
+textarea {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+button:focus,
+button:active,
+input.focus,
+input:active,
+textarea:focus,
+textarea:active {
+  outline: none;
+  box-shadow: none;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.fill-button{
+  width: 140px;
+  height: 48px;
+  border-radius: 2px;
+
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  text-align: center;
+
+  padding: 12px 0 0;
+
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fill-button:hover{
+  opacity: 0.5;
+}
+
+
+
+/* In Phone CSS Start */
+/* header */
+.header{
+  padding: 154px 0;
+  background-color: #FDDED8;
+
+  text-align: center;
+}
+
+.header .row:first-child{
+  margin-bottom: 24px;
+}
+
+.header h1{
+  margin-bottom: 24px;
+}
+
+.header a{
+  display: inline-block;
+}
+
+.header a:first-child{
+  color: white;
+  background-color: #3040C4;
+}
+
+.header a:last-child{
+  color: #3040C4;
+  background-color: white;
+  /* margin-right: 8px; */
+}
+
+
+
+/* section-1 */
+.section-1{
+  padding: 80px 0;
+  background-color: #F4F5F7;
+}
+
+.section-1 h2{
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+
+  margin-bottom: 16px;
+}
+
+.section-1-content{
+  margin-bottom: 40px;
+}
+
+
+
+/* section-2 */
+.section-2{
+  padding: 80px 0;
+}
+
+#section-2-first-col-12{
+  margin-bottom: 32px;
+}
+
+.section-2-content>span{
+  display: block;
+  color: #009B4D;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+
+  margin-bottom: 8px;
+}
+
+.section-2-content>h2{
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+
+  margin-bottom: 24px;
+}
+
+.section-2-anchor img{
+  width: auto;
+  height: 195px;
+}
+
+.section-2-anchor{
+  height: 291px;
+
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
+              0px 4px 6px rgba(0, 0, 0, 0.05),
+              inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+
+  transition: background-color 0.3s ease-in-out;
+  
+  border-radius: 8px;
+}
+#sec-2-a{
+  margin-bottom: 20px;
+}
+
+
+.section-2-anchor:hover{
+  background-color: #3141C5;
+  color: white;
+}
+
+
+
+/* section-3 */
+.section-3{
+  padding: 80px 0;
+}
+
+.section-3-header{
+  margin-bottom: 48px;
+}
+
+.section-3-header>span{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #0189D1;
+
+  margin-bottom: 8px;
+}
+
+.section-3-header>h2{
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+
+  margin-bottom: 24px;
+}
+
+.section-3-header>p{
+  margin-bottom: 32px;
+}
+
+.section-3-header>a{
+  display: block;
+
+  background-color: #3040C4;
+  color: white;
+
+  transition: opacity .3s ease-in-out;
+}
+
+.section-3-header>a:hover{
+  opacity: .5;
+}
+
+/* image disapear in phone */
+.section-3 img{
+  display: none;
+}
+
+.section-3 .row:last-child strong{
+  font-weight: bold;
+}
+
+.section-3-content{
+  margin-bottom: 40px;
+}
+
+
+
+/* section-4 */
+.section-4{
+  padding: 65px 0 40px;
+
+  background-color: #F2F8FA;
+}
+
+.section-4 p{
+  margin-bottom: 24px;
+}
+
+.section-4 img{
+  display: block;
+  width: auto;
+  height: 190px;
+  margin: 0 auto 41px;
+}
+
+.section-4{
+  text-align: center;
+}
+
+.section-4 h1{
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+
+  margin-bottom: 16px;
+}
+
+.section-4 input,
+.section-4 button{
+  width: 100%;
+  height: 48px;
+
+  border: none;
+  margin-bottom: 8px;
+}
+
+.section-4 form input{
+  text-indent: 16px;
+  letter-spacing: -0.01em;
+}
+
+.section-4 form button{
+  background-color: #3040C4;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+
+  transition: opacity .3s ease-in-out;
+}
+
+.section-4 button:hover{
+  opacity: .5;
+}
+
+.section-4 span{
+  font-size: 13px;
+  line-height: 20px;
+  color: #7B7B7E;
+}
+
+.section-4 span>a{
+  color: #3040C4;
+  text-decoration: underline;
+}
+
+
+
+/* footer */
+.footer{
+  padding: 24px 0;
+}
+
+.footer a{
+  display: block;
+
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #807F81;
+}
+
+.footer-anchor{
+  margin-bottom: 8px;
+}
+
+
+
+/* In Desktop (768px<=) */
+@media screen and (min-width: 768px) {
+  /* Reset CSS */
+  h1{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 72px;
+    letter-spacing: -0.05em;
+  }
+
+  h2{
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+
+  }
+
+  p{
+    font-size: 22px;
+    line-height: 1.36363636;
+    color: #2B292D;
+    letter-spacing: -0.01em;
+  }
+
+
+
+  /* header */
+  .header{
+    padding: 120px 0;
+  }
+
+  .header h1{
+    margin-bottom: 32px;
+  }
+
+  .header .row:first-child{
+    margin-bottom: 32px;
+  }
+
+  .fill-button:nth-child(1),
+  .fill-button:nth-child(2){
+    width: 160px;
+    height: 56px;
+
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+
+    padding-top: 14px;
+  }
+
+  .fill-button:nth-child(1){
+    margin-right: 16px;
+  }
+
+
+
+  /* section-1 */
+  .section-1 h2{
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+  }
+
+  .section-1-content{
+    margin-bottom: 0;
+  }
+
+
+
+  /* section-2 */
+  .section-2{
+    padding: 80px 0 96px;
+  }
+
+  .section-2-content{
+    text-align: center;
+  }
+
+  .section-2-content>span{
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  .section-2-content>h2{
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+
+    margin-bottom: 32px;
+  }
+
+  #section-2-first-col-12{
+    margin-bottom: 72px;
+  }
+
+  .section-2-anchor{
+    height: 299px;
+
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+  }
+
+  #sec-2-a{
+    margin-bottom: 0;
+  }
+
+
+
+  /* section-3 */
+  .section-3{
+    padding: 80px 0 96px;
+  }
+
+  .section-3 img{
+    display: block;
+    height: 450px;
+  }
+
+  .section-3 .row:first-child>.col-12{
+    margin-bottom: 24px;
+  }
+
+  .section-3-header>span{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+
+    margin-bottom: 16px;
+  }
+
+  .section-3-header>h2{
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+
+    margin-bottom: 32px;
+  }
+
+  .section-3-header>p{
+    margin-bottom: 72px;
+  }
+
+  .section-3-header>.fill-button{
+    width: 160px;
+    height: 56px;
+    padding-top: 14px;
+  }
+
+  .section-3-content{
+    margin-bottom: 0;
+  }
+
+  .section-3 .row:last-child p,
+  .section-3 .row:last-child strong{
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+  }
+
+  .section-3 .row:last-child strong{
+    font-weight: bold;
+  }
+
+
+
+  /* section-4 */
+  .section-4{
+    padding: 88px 0;
+    text-align: left;
+  }
+
+  .section-4 img{
+    width: 287px;
+    height: 285px;
+    margin: 0;
+  }
+
+  .section-4 h1{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+  }
+
+  .section-4 .col-12:last-child{
+    margin: auto 0;
+  }
+
+  .section-4 .input{
+    margin-bottom: 4px;
+  }
+
+  .section-4 input{
+    width: 362px;
+    height: 56px;
+
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+
+    margin-bottom: 0;
+    padding: 0;
+    margin-right: 3px;
+  }
+
+  .section-4 button{
+    width: 160px;
+    height: 56px;
+
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+
+    margin-bottom: 0;
+    padding: 0;
+
+    transition: opacity .3s ease-in-out;
+  }
+
+  .section-4 button:hover{
+    opacity: .5;
+  }
+
+  .section-4 span{
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+
+
+  /* footer */
+  .footer{
+    padding: 16px 0;
+  }
+
+  .footer-anchor{
+    margin-bottom: 0;
+  }
+}
+
+/* Custom Grid System : Max width is 960px */
+@media screen and (min-width: 1200px) {
+  .container{
+    max-width: 960px;
+  }
+}
